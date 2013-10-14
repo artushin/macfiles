@@ -1,6 +1,7 @@
 # Servers
 alias pds="ssh -A alex@pds.dev.vube.com"
 alias lime="ssh -A alex@lime.dev.vube.com"
+alias ec2="ssh -A ubuntu@ribrak.com"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
