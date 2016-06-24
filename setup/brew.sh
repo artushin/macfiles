@@ -8,6 +8,7 @@ brew upgrade
 brew install zsh
 brew install git
 brew install git-extras
+brew install bash-completion
 brew install coreutils
 
 # Network tools.

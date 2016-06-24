@@ -42,3 +42,6 @@ function tostash {
 	echo "New Remote: `git remote -v | grep fetch | cut -d\  -f 1`"
 }
 
+if [ -f /usr/local/etc/bash_completion ]; then
+. /usr/local/etc/bash_completion
+fi
