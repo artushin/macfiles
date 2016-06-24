@@ -1,4 +1,0 @@
-macfiles
-========
-
-Dotfiles and utilities
