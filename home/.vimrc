@@ -37,7 +37,7 @@ set number
 " Enable syntax highlighting
 syntax on
 " Make tabs as wide as two spaces
-set tabstop=2
+set tabstop=4
 " Highlight searches
 set hlsearch
 " Ignore case of searches
