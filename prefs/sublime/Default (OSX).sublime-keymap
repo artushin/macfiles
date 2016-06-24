@@ -1,0 +1,5 @@
+[
+	{ "keys": ["command+left"], "command": "prev_view" },
+	{ "keys": ["command+right"], "command": "next_view" },
+	{ "keys": ["super+ctrl+i"], "command": "increment_selection" }
+]

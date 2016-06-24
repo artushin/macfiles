@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sh ./brew.sh
+sh ./casks.sh
+
+sh ./osx.sh
+
+sh ./dotfiles.sh
+sh ./prefs.sh

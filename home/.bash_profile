@@ -1,8 +1,3 @@
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH"
-export PATH="$PATH:/usr/local/mysql/bin/"
-
-
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -36,9 +31,6 @@ complete -W "NSGlobalDomain" defaults
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall
-
-# Autocomplete Grunt commands
-# which grunt > /dev/null && eval "$(grunt --completion=bash)"
 
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
