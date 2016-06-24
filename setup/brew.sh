@@ -35,9 +35,7 @@ brew install python
 # Other programs.
 brew install graphviz
 
-# Brew cask to install GUI applications.
-brew install caskroom/cask/brew-cask
-
 # Remove outdated versions from the cellar.
 brew cleanup
 brew linkapps
+
