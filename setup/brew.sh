@@ -32,6 +32,8 @@ brew install go
 brew install node
 brew install python3
 brew install python
+brew tap homebrew/science    
+brew install r
 
 # Other programs.
 brew install graphviz
