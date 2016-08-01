@@ -127,3 +127,6 @@ alias map="xargs -n1"
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "$method"="lwp-request -m '$method'"
 done
+
+# alias to open in chrome
+alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
