@@ -28,7 +28,6 @@ brew install ack
 brew install libffi
 
 # Languages.
-brew install go
 brew install node
 brew install python3
 brew install python
